@@ -1,0 +1,1 @@
+<img src={"https://th.bing.com/th/id/R.211b67199b3d0ca60b31395151dca189?rik=%2frfiVjhz9Q0%2fRQ&pid=ImgRaw&r=0"} alt="Bandeira do Brasil" className={styles.bandeiraBrasil} />

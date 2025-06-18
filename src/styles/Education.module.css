@@ -1,0 +1,89 @@
+.education {
+  background: #fff;
+  padding: 3rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #283e51;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.timelineItem {
+  border-left: 4px solid #eee;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.timelineItem::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 4px solid #4b79a1;
+  border-radius: 50%;
+}
+
+.markerIcon {
+  width: 20px;
+  height: 20px;
+  color: #4b79a1;
+}
+
+.educationLevel {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #283e51;
+}
+
+.institution {
+  font-weight: 600;
+  color: #333;
+  margin-top: 0.25rem;
+}
+
+.period {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.periodIcon {
+  width: 18px;
+  height: 18px;
+  color: #4b79a1;
+}
+
+.current {
+  border-color: #4b79a1;
+}
+
+.completed {
+  border-color: #28a745;
+}

@@ -1,0 +1,78 @@
+.experience {
+  background: #fff;
+  padding: 3rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #283e51;
+}
+
+.experienceCard {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.experienceCard:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.position {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #283e51;
+}
+
+.period {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.periodIcon {
+  width: 18px;
+  height: 18px;
+  color: #4b79a1;
+}
+
+.company {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.description {
+  margin-top: 1rem;
+  color: #555;
+}
+
+.responsibilities {
+  list-style: disc;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
