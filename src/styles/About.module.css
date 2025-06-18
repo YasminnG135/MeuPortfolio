@@ -19,7 +19,7 @@
 .title {
   font-size: 2rem;
   font-weight: 600;
-  color: #283e51;
+  color: #ffffff;
 }
 
 .content {
@@ -41,12 +41,12 @@
   align-items: center;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #4b79a1;
+  color: #ffffff;
 }
 
 .cardIcon {
   margin-right: 0.5rem;
-  color: #4b79a1;
+  color: #ffffff;
 }
 
 .infoList {
@@ -63,11 +63,11 @@
 
 .infoIcon {
   margin-right: 0.5rem;
-  color: #283e51;
+  color: #ffffff;
 }
 
 .objectiveText {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #333;
+  color: #ffffff;
 }

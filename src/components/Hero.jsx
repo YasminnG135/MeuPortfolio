@@ -30,9 +30,7 @@ function Hero() {
                 TI | ADM | MKT
               </span>
             </div>
-            <p className={styles.objective}>
-              Busco uma oportunidade para aplicar meus conhecimentos, desenvolver habilidades e contribuir para os resultados da empresa com responsabilidade e comprometimento.
-            </p>
+
             <div className={styles.contactButtons}>
               <a href="mailto:yasmingoncalvessantos8@gmail.com" className={styles.primaryButton}>
                 <Mail className={styles.buttonIcon} />
