@@ -20,7 +20,7 @@ function Certificates() {
             <div className={styles.certificateCard}>
               <div className={styles.certificateImage}>
                 <img
-                  src="/assets/certificado1.png"
+                  src="src\assets\certificado1.png"
                   alt="Certificado 1"
                   className={styles.certImage}
                 />
@@ -34,8 +34,8 @@ function Certificates() {
             </div>
             <div className={styles.certificateCard}>
               <div className={styles.certificateImage}>
-                <img
-                  src="/assets/certificado2.png"
+              <img
+                  src="src\assets\certificado2.png"
                   alt="Certificado 2"
                   className={styles.certImage}
                 />
