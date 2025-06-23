@@ -1,6 +1,8 @@
 import React from 'react';
 import { Award, ExternalLink } from 'lucide-react';
 import styles from '../styles/Certificates.module.css';
+import Certificado1 from '../assets/certificado1.png';
+import Certificado2 from '../assets/certificado2.png';
 
 function Certificates() {
   return (
@@ -20,7 +22,7 @@ function Certificates() {
             <div className={styles.certificateCard}>
               <div className={styles.certificateImage}>
                 <img
-                  src="src\assets\certificado1.png"
+                  src={Certificado1}
                   alt="Certificado 1"
                   className={styles.certImage}
                 />
@@ -34,8 +36,8 @@ function Certificates() {
             </div>
             <div className={styles.certificateCard}>
               <div className={styles.certificateImage}>
-              <img
-                  src="src\assets\certificado2.png"
+                <img
+                  src={Certificado2}
                   alt="Certificado 2"
                   className={styles.certImage}
                 />
